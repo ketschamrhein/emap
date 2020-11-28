@@ -2,7 +2,7 @@
 
 This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
 
-## Tools you will needtest
+## Tools you will need
 
 In order to build your own map for WorkAdventure, you need:
 
