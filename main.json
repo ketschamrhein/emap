@@ -37,7 +37,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/emap\/thmap.json"
+                 "value":"\/emap\/thmap.json"
                 }],
          "type":"tilelayer",
          "visible":true,

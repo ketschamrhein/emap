@@ -49,7 +49,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"...\/secmap.json"
+                 "value":"\/emap\/secmap.json"
                 }],
          "type":"tilelayer",
          "visible":true,
