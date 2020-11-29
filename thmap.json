@@ -29,12 +29,6 @@
          "id":7,
          "name":"bottom",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"startLayer",
-                 "type":"bool",
-                 "value":true
-                }],
          "startx":0,
          "starty":-32,
          "type":"tilelayer",
@@ -60,7 +54,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }],
          "startx":0,
          "starty":-32,
@@ -87,7 +81,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"secmap.json"
+                 "value":"...\/emap\/secmap.json"
                 }],
          "startx":0,
          "starty":-32,
@@ -143,8 +137,63 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":64,
          "firstgid":1,
-         "source":"..\/map\/DungeonCrawl_ProjectUtumnoTileset.tsx"
+         "image":"..\/map\/DungeonCrawl_ProjectUtumnoTileset.png",
+         "imageheight":1536,
+         "imagewidth":2048,
+         "margin":0,
+         "name":"DungeonCrawl_ProjectUtumnoTileset",
+         "spacing":0,
+         "tilecount":3072,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":1028,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1029,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1030,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1031,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1032,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
